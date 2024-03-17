@@ -1,0 +1,24 @@
+.camera-container {
+    /* Estilos já existentes para o container da câmera */
+  }
+  
+  .camera-button {
+    background-color: #fc5c65; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px; /* Bordas arredondadas do botão */
+    margin: 5px; /* Espaçamento em torno do botão */
+    font-size: 16px; /* Tamanho do texto dentro do botão */
+    cursor: pointer; /* Cursor do mouse como ponteiro para indicar que é clicável */
+    display: flex; /* Para alinhar ícones e texto dentro do botão */
+    align-items: center; /* Alinhamento vertical dos ícones e texto */
+    justify-content: center; /* Alinhamento horizontal dos ícones e texto */
+  }
+  
+  .camera-button:hover {
+    background-color: #eb3b5a; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
+  /* Repita estilos semelhantes para outros botões dentro do componente da câmera */
+  

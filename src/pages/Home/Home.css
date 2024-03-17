@@ -1,0 +1,75 @@
+.home-container {
+    font-family: 'Arial', sans-serif;
+    position: relative; /* Posicionamento para elementos absolutos dentro */
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2em;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url('../../galeriaImagens/WallPaper01.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ajusta para o tamanho da viewport */
+    color: white;
+    padding: 2em;
+    text-align: center;
+    position: relative; /* Necessário para o z-index */
+    z-index: 1; /* Mantém a imagem de fundo atrás dos outros elementos */
+}
+
+/* Estilo para as seções sobrepostas */
+.section-overlay {
+    position: absolute;
+    top: 50%; /* Inicia a sobreposição no meio da seção hero */
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9); /* Fundo branco com opacidade */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    padding: 2em;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.about, .pets-gallery, .success-stories {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.pets-gallery .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 2; /* Garante que o rodapé fique sobre a imagem de fundo */
+}

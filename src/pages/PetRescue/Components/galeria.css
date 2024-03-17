@@ -1,0 +1,19 @@
+.galeria-container {
+    /* Estilize o contêiner da galeria aqui */
+  }
+  
+  .galeria-images {
+    /* Estilize as imagens da galeria aqui */
+    display: flex;
+    overflow-x: auto; /* para tornar a galeria de imagens rolável horizontalmente */
+  }
+  
+  .galeria-image {
+    /* Estilize cada imagem individual da galeria aqui */
+    width: 50px; /* ou um tamanho específico, conforme necessário */
+    margin-right: 10px;
+    border-radius: 5px; /* para imagens arredondadas */
+  }
+  
+  /* Adicione estilos adicionais conforme necessário para botões e outros elementos dentro do componente Galeria */
+  

@@ -1,0 +1,66 @@
+.pet-rescue {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f1e3;
+  color: #333;
+  max-width: 375px;
+  margin: auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.top-bar {
+  background-color: #ffddd2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.menu-icon {
+  /* Custom styles for menu icon */
+}
+
+.heart-icon {
+  /* Custom styles for heart icon */
+}
+
+.camera-view {
+  padding: 10px;
+  /* Style as needed for camera view */
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #ffddd2;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.camera-btn, .save-btn {
+  background-color: #fc5c65;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.camera-btn:hover, .save-btn:hover {
+  background-color: #eb3b5a;
+}

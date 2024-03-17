@@ -1,0 +1,49 @@
+/* src/components/NavBar/NavBar.css */
+.navbar {
+  background-color: #f2a365;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex; /* Garante que os links estejam dispostos horizontalmente */
+  list-style: none; /* Remove estilos de lista */
+}
+
+.nav-link {
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: flex; /* Novo estilo para exibir ícones de forma adequada */
+  align-items: center; /* Centraliza ícones e texto (se houver) verticalmente */
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.nav-link:hover {
+  background-color: #e89e6d;
+}
+
+/* Responsividade - Considerar um ponto de interrupção se necessário */
+@media (max-width: 768px) {
+  .navbar-links {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-link {
+      width: 100%; /* Estende os links para ocupar a largura total */
+  }
+
+  /* Opcional: adicionar estilos para o ícone do menu (hamburger) aqui */
+}

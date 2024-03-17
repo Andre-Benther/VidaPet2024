@@ -1,0 +1,33 @@
+/* src/components/NavBar/NavBar.css */
+.navbar {
+    background-color: #f2a365; /* A cor de fundo precisa ser ajustada conforme o design */
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    display: flex;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+  
+  .nav-link:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+  
+  .nav-link:hover {
+    background-color: #e89e6d;
+  }
+  
